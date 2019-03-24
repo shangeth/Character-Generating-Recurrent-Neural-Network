@@ -1,6 +1,6 @@
 # Character-Generating-Recurrent-Neural-Network
 
-![](https://images.slideplayer.com/24/7483721/slides/slide_12.jpg)
+![](http://karpathy.github.io/assets/rnn/charseq.jpeg)
 
 
 ```
