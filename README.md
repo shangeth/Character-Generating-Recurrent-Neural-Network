@@ -25,3 +25,8 @@ optional arguments:
   --save_path SAVE_PATH
                         path to save the model
 ```
+
+Give the path to save the model and change the hyper parameters as needed.
+ ```
+ !python train.py --epoch=50 --batch_size=1500 --save_path='/content/Character-Generating-Recurrent-Neural-Network/trained_model/char_rnn_model.net'
+ ```
