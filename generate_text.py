@@ -1,6 +1,7 @@
 import torch.nn.functional as F
 from model import CharacterRNN
-
+import torch
+from data_process import *
 
 CUDA = torch.cuda.is_available()
 
@@ -59,7 +60,7 @@ def main(model_path, num_chars, prime, top_k):
     char = checkpoint['tokens']
     n_hidden = checkpoint['n_hidden']
     n_layers = checkpoint['n_layers']
-    
+
     net = CharacterRNN(char, n_hidden, n_layers)
     net.load_state_dict(checkpoint['state_dict'])
     print(sample(net, num_chars, prime='He ', top_k=5))

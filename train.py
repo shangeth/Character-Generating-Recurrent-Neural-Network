@@ -103,4 +103,4 @@ if __name__ == '__main__':
     parser.add_argument("--print_every", help="show loss every n steps", default=1)
     parser.add_argument("--save_path", help="path to save the model", default='./trained_model/char_rnn_model.net')
     args = parser.parse_args()
-    main(args.data_preprocess, args.batch_size, args.epochs, args.seq_len, args.lr, args.print_every, args.save_path)
+    main(args.data_preprocess, int(args.batch_size), int(args.epochs), int(args.seq_len), float(args.lr), int(args.print_every), str(args.save_path))
