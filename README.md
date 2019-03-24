@@ -44,3 +44,21 @@ Epoch: 10/50... Step: 100... Train Loss: 3.1173... Val Loss: 3.1037
 ...
 ...
 ```
+
+## Generating Text from trained model
+```
+python generate_text.py -h
+```
+```
+usage: generate_text.py [-h] [--model_path MODEL_PATH] [--num_chars NUM_CHARS]
+                        [--prime PRIME] [--top_k TOP_K]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --model_path MODEL_PATH
+                        path to trained model
+  --num_chars NUM_CHARS
+                        no of characters to generate
+  --prime PRIME         Starting chars
+  --top_k TOP_K         choose top k chars
+```
