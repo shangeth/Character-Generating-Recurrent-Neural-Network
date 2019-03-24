@@ -1,4 +1,8 @@
 # Character-Generating-Recurrent-Neural-Network
+
+![](https://images.slideplayer.com/24/7483721/slides/slide_12.jpg)
+
+
 ```
 git clone https://github.com/shangeth/Character-Generating-Recurrent-Neural-Network.git 
 cd Character-Generating-Recurrent-Neural-Network
