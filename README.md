@@ -1,5 +1,8 @@
 # Character-Generating-Recurrent-Neural-Network
-``` git clone 
+```
+git clone https://github.com/shangeth/Character-Generating-Recurrent-Neural-Network.git 
+cd Character-Generating-Recurrent-Neural-Network
+```
 ## Training the model
 Place the text corpus as data/data.txt
 
@@ -61,4 +64,33 @@ optional arguments:
                         no of characters to generate
   --prime PRIME         Starting chars
   --top_k TOP_K         choose top k chars
+```
+
+```
+!python generate_text.py --model_path='./trained_model/char_rnn_model.net' --num_chars=1000 --prime='The'
+```
+### after 5 epochs
+```
+He  t ee a oee  ae  te  ea toee a ttoe oeaea oo aa    ot a e eet tte e      eete  oaa ateeeeta eeete eoaaaeoeoe  t e ae eet eo tteaoeoeeat   tote eetooetotao teooeet aaaoo a ao ettot tooto   e tet oae too e t aaoeo  t o   oa a eteaate ee t oe eet a toe  eo teot eaet   a    tta at ee t otot   ee oeoeeoe aao aa o eeeto e eaeeea aoa  eeotaa tooato ee otaatot aaaoeoeoo te eto t etoete    aatott ttt    toat ee    oo te eoe eeet a e  taateaee aeetoeeooe aa ee aette  ee ete e eeoto  aetta   o a e  t ttea ae t eoo  teeoeoaoa t a otteaot te a    tao  aeattateaeoet tta  ea a ao o o ae   eto eta aeeteeaao ot o oeo aet  e  a o o  ao atot   o  ae e e t   oeetae  otoae  a etttota  te o otet    to eeet aataoeaeoe a tae aetto a e eaoeee  e eaee eeo te ee  ttt o  t  oo o aae a   teate aaeea  oo  e e eooo o o ota tt tot t  tae eaaeee eee  e ote ot oa   te eote to  ea oo eo  aa eo  o tt o   o  o e ea aoeae eeae  aa  e oeea  eoe et  o ae e t to e   te aoeat  e ae e otaaaa teeot ee  e tat eoao    e   oe a ooo
+```
+
+### after 50 epochs
+```
+He to said, and wer his a meante tild.
+
+"Whet the she shower the wout what hus as she manter and with,
+stal is attere to
+whe seres ald as as that her hent of a man she stouls his her and
+the stist to him homs a sont her she sharsion. The would thather the
+shing the selt, ans and, she
+ser ting werl allan at his tail stone withe to was see with whis sains of hered him hans whe ser him his," the
+said theighal to her working her that sompied of whe meching him him as he was, was stoung and to shis had his was sould the she that his hainss that his stilk, but
+shours the said, the mering all with stard as that sele to he have a said when her treed."
+
+"I his son wond ther
+sompision tome with wish a sens the wout, but
+the pass was
+hersend, his
+show in that her he have the pelant thuugh her,
+and at his'ly what to bot to le ser the was han stould all he soren was that han son what to that said was so the parster was tond, and she sare sead.... I shit an she maness hom he shat to he wams him song a p
 ```
