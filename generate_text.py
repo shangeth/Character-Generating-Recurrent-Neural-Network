@@ -73,4 +73,4 @@ if __name__ == '__main__':
     parser.add_argument("--prime", help="Starting chars ", default="the")
     parser.add_argument("--top_k", help="choose top k chars", default=5)
     args = parser.parse_args()
-    main(args.model_path, args.num_chars, args.prime, args.top_k)
+    main(args.model_path, int(args.num_chars), args.prime, int(args.top_k))
