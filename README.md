@@ -1,5 +1,5 @@
 # Character-Generating-Recurrent-Neural-Network
-
+``` git clone 
 ## Training the model
 Place the text corpus as data/data.txt
 
