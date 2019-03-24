@@ -1,5 +1,8 @@
 
 import numpy as np
+from data_process import *
+import argparse
+
 
 def encode_text(text):
 	char = list(set(text))

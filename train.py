@@ -68,9 +68,9 @@ def train(net, data, epochs=10, batch_size=10, seq_length=50, lr=0.001, clip=5, 
                       "Train Loss: {:.4f}...".format(loss.item()),
                       "Val Loss: {:.4f}".format(np.mean(val_losses)))
 
-def save_model():
+def save_model(save_path, net):
 
-    model_name = 'character_rnn.net'
+    model_name = save_path
     checkpoint = {'n_hidden': net.n_hidden,
                   'n_layers': net.n_layers,
                   'state_dict': net.state_dict(),
@@ -90,6 +90,7 @@ def main(data_preprocess, batch_size, n_epochs, seq_length, lr, print_every, sav
     n_layers=2
     net = CharacterRNN(char, n_hidden, n_layers)
     train(net, encoded, epochs=n_epochs, batch_size=batch_size, seq_length=seq_length, lr=lr, print_every=10)
+    save_model(save_path, net)
 
 
 if __name__ == '__main__':
@@ -100,6 +101,6 @@ if __name__ == '__main__':
     parser.add_argument("--seq_len", help="no of character in a sequence", default=100)
     parser.add_argument("--lr", help="learning rate", default=0.001)
     parser.add_argument("--print_every", help="show loss every n steps", default=1)
-    parser.add_argument("--save_path", help="path to save the model", default='./trained_model')
+    parser.add_argument("--save_path", help="path to save the model", default='./trained_model/char_rnn_model.net')
     args = parser.parse_args()
     main(args.data_preprocess, args.batch_size, args.epochs, args.seq_len, args.lr, args.print_every, args.save_path)
