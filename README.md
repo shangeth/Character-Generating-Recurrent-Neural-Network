@@ -98,3 +98,23 @@ hersend, his
 show in that her he have the pelant thuugh her,
 and at his'ly what to bot to le ser the was han stould all he soren was that han son what to that said was so the parster was tond, and she sare sead.... I shit an she maness hom he shat to he wams him song a p
 ```
+
+### after 100 epochs
+```
+He sould a sawess and whought to the shall hind and antorlly of seen of his seen a foll and whan and with his beco of steed of interitation off and thint to while to the preads and
+a same, but she hum te a she sengaled oving. Ald the canst with whith the
+whard. I day
+that that the with her the
+seed, and seard trengs him selpats, and were to her hand. "It anstains inte to that's that womer. He wele
+of her huse and he was how hin tadle her how his suscenst of a life would stom the prince. The seil and
+sord tranting the mensens was is hor had stomed. "I's as toman tares hasted him
+bast too have
+on and wert
+at the sercont out off to muse, and
+all saying too shere the sersian with his was an said to hen wall his bett of his wittess his bast weres. "Whith with the
+roncioussess a she a shild so her was sears and the ploviat talk telp, and had not
+a seers it, and a mear in
+the sould of the shalled of his leacht of the calling ther
+allad to her
+him all to shath to were the prossion what wise to see
+```
